@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        /* color: #343a40;
+        background-color: #f8f9fa; */
+        line-height: 1;
+      }
+      header {
+        position: relative;
+        background-image: url(/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+      header::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+      }
+      .container {
+        margin: 0 150px;
+        padding: 30px 10px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav div {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        z-index: 2;
+      }
+      .header-container {
+        position: relative;
+        margin-top: 40px;
+        max-width: 600px;
+        color: #fff;
+        z-index: 3;
+      }
+      .header-container-inner h1 {
+        font-size: 50px;
+        line-height: 1.1;
+        margin-bottom: 40px;
+      }
+      .header-container-inner p {
+        line-height: 1.6;
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      .btn {
+        padding: 15px 30px;
+        font-size: 20px;
+        color: #fff;
+        background-color: #fd7e14;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+      section h1 {
+        margin: 50px 0;
+        font-size: 40px;
+        font-weight: bold;
+        color: #343a40;
+      }
+      section p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: #343a40;
+      }
+    </style>
+    <title>Pagination</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>logo</div>
+        <div>NAVIGATION</div>
+      </nav>
+      <div class="header-container container">
+        <div class="header-container-inner">
+          <h1>A healty meal delivered to your door, every single day</h1>
+          <p>
+            The smart 365-days-per-year food subscription that will make you eat
+            healty algain. Tailored to your personal tastes and nutritional
+            needs
+          </p>
+          <button class="btn">Start eating well</button>
+        </div>
+      </div>
+    </header>
+    <section class="container">
+      <h1>Some random heading</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quas,
+        minus beatae sapiente debitis voluptatum, laudantium veritatis impedit
+        corrupti officia recusandae fugit, voluptates iure velit! Ad suscipit
+        vitae nobis optio. Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Reiciendis sequi quam earum voluptas eum laboriosam at cupiditate
+        debitis in odio adipisci repudiandae enim ea, sint quos similique!
+        Debitis, facilis dolore?
+      </p>
+    </section>
+  </body>
+</html>

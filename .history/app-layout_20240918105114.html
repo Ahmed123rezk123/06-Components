@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        /* font-family: "Hanken Grotesk", system-ui; */
+        /* color: #343a40;
+        background-color: #f8f9fa; */
+        line-height: 1;
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 80px 400px 1fr 250px;
+        grid-template-rows: 80px 1fr;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #343a40;
+      }
+      nav,
+      menu,
+      section,
+      main,
+      aside {
+        padding: 25px 0;
+      }
+      nav {
+        background-color: #343a40;
+        grid-row: 1 / -1;
+        color: #fff;
+      }
+      menu {
+        background-color: #7048e8;
+        grid-column: 2 / -1;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+      }
+      menu ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      menu ul li {
+        color: #fff;
+        background-color: #5f3dc4;
+        padding: 10px 15px;
+        /* border-radius: 5px; */
+        cursor: pointer;
+        font-size: 16px;
+      }
+      menu .btn {
+        padding: 10px 15px;
+        color: #fff;
+        background-color: #d6336c;
+        border: none;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      section {
+        background-color: #e9ecef;
+        padding: 40px;
+      }
+      section div {
+        background-color: #adb5bd;
+        height: 96px;
+      }
+      aside {
+        background-color: #e9ecef;
+      }
+    </style>
+    <title>App</title>
+  </head>
+  <body>
+    <nav>Nav</nav>
+    <menu>
+      <ul>
+        <li>New</li>
+        <li>Reply</li>
+        <li>Forward</li>
+        <li>Mark unread</li>
+      </ul>
+      <button class="btn">Trash</button>
+    </menu>
+    <section>
+      <div>Email 1</div>
+      <div>Email 2</div>
+      <div>Email 3</div>
+      <div>Email 4</div>
+      <div>Email 5</div>
+      <div>Email 6</div>
+      <div>Email 7</div>
+      <div>Email 8</div>
+      <div>Email 9</div>
+      <div>Email 10</div>
+    </section>
+    <main>Email view</main>
+    <aside>Additional info</aside>
+  </body>
+</html>

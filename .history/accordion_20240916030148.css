@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  /* border-bottom: 8px solid #087f5b; */
+  background-color: #f8f9fa;
+}
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+}
+
+.item {
+  background-color: #fff;
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.number,
+.text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ced4da;
+}
+.text {
+  color: #000;
+}
+
+.icon {
+  width: 25px;
+  color: #087f5b;
+}
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
